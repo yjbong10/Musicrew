@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    @include responsive(lg-screen) {
+        font-size: 70%;
+    }
+
+    @include responsive(md-screen) {
+        font-size: 55%;
+    }
+
+    @include responsive(sm-screen) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    color: $white;
+    font-weight: 400;
+    line-height: 1.6;
+
+    //simply remove this if it not needed or causing errors
+    min-width: $min-w;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+//colors
+$p-color: #3F3835;
+$p-color-light: #83756f;
+$p-color-dark: #181311;
+
+$s-color:#e5b097;
+$s-color-light:#fff4ef;
+$s-color-dark:#e29873;
+
+$white: #ffffff; 
+
+//edge padding
+$edge-pd: 0 8rem;
+$edge-pd-lg: 0 10rem;
+$edge-pd-md: 0 5rem;
+$edge-pd-sm: 0 3rem;
+
+
+//shadows
+$md-shadows: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.16);
+$lg-shadows: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+
+
+// transition
+$rg-trns: all .4s ease;
+$sl-trns: .7s ease;
+
+//border radius
+$rg-br: 5px; 
+
+
+
+//min width for body (a workaround to follow the navbar width)
+//not sure the reason it acted that way as the time of this writing...
+//simply remove this if it not needed or causing errors
+$min-w: 14.6rem

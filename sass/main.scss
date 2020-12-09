@@ -1,0 +1,14 @@
+//abstract
+@import "./configs/variables";
+@import "./configs/mixins";
+@import "./configs/utilityClass";
+
+//base style
+@import "./configs/base";
+
+//sections style
+@import "./sections/header";
+@import "./sections/services";
+@import "./sections/about";
+@import "./sections/contact";
+
